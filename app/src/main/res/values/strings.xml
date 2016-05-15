@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Snake</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="leaderboardTv">Leaderboard : </string>
+    <string name="start_time_tv">00:00:000</string>
+    <string name="start_score_tv">0</string>
+    <string name="menu_leaderboardBtn">Leaderboard</string>
+    <string name="menu_exitBtn">Exit</string>
+    <string name="menu_play_Btn">Play</string>
+    <string name="empty_leaderboard">Nobody plays snake</string>
+    <string name="difficulty_choice">Difficulty</string>
+    <string name="new_game_choice">New Game</string>
+    <string name="continue_choice">Continue</string>
+    <string name="pref_difficulty_key">difficulty</string>
+    <string name="pref_difficulty_title">Choose difficulty</string>
+    <string name="pref_default_difficulty">330</string>
+</resources>

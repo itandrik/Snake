@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_img"
+    tools:context="com.examplesnake.snake.MainMenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_play_Btn"
+            android:background="@drawable/menu_button_selector"
+            android:layout_gravity="center_horizontal"
+            android:textSize="24sp"
+            android:id="@+id/playBtn" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_leaderboardBtn"
+            android:background="@drawable/menu_button_selector"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_between_buttons"
+            android:textSize="24sp"
+
+            android:id="@+id/leaderboardBtn" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_exitBtn"
+            android:background="@drawable/menu_button_selector"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_between_buttons"
+            android:textSize="24sp"
+            android:id="@+id/exitBtn" />
+    </LinearLayout>
+
+</FrameLayout>

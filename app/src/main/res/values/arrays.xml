@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+        <item>Insane</item>
+    </string-array>
+    <string-array name="entry_values">
+        <item>330</item>
+        <item>300</item>
+        <item>270</item>
+        <item>250</item>
+    </string-array>
+</resources>
